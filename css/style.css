@@ -1,0 +1,71 @@
+body {
+    background-color: slategrey;
+    max-width: 800px;
+    margin: auto;
+}
+
+nav {
+    background-color: darkblue;
+    box-shadow: 1px 2px 3px black;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+    color: green;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero {
+    /* /* background-color: darkblue; */
+    color: white;
+    text-align: center;
+    padding-bottom: 7px;
+}
+
+.heroimg {
+    border-radius: 50%;
+    box-shadow: 1px 2px 3px black;
+    margin-top: 15px;
+}
+
+.info {
+    background-color: darkblue;
+    color: white;
+    box-shadow: 1px 2px 3px black;
+    margin-bottom: 20px;
+}
+
+.info h3 {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.info p {
+    margin-left: 20px;
+}
+
+.skillsDiv {
+    display: grid;
+}
+
+.skillsList {
+    grid-column: 1;
+}
+
+.skillsList2 {
+    grid-column: 2;
+}
+
+.skillsList3 {
+    grid-column: 3;
+}
