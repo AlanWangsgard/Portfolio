@@ -1,10 +1,10 @@
 body {
-    background-color: slategrey;
-    max-width: 800px;
+    background-color: #55595D;
     margin: auto;
+    margin-bottom: 15px;
 }
 
-nav {
+.proNav {
     background-color: darkblue;
     box-shadow: 1px 2px 3px black;
 }
@@ -25,24 +25,66 @@ nav li a {
     color: white;
 }
 
+nav ul {
+    margin-top: 0px;
+}
+
+.main {
+    background-color: darkblue;
+    box-shadow: 1px 2px 3px black;
+}
+
 .hero {
     /* /* background-color: darkblue; */
     color: white;
-    text-align: center;
-    padding-bottom: 7px;
+    /* text-align: center; */
+    padding-bottom: 20px;
+    display: grid;
 }
 
 .heroimg {
     border-radius: 50%;
     box-shadow: 1px 2px 3px black;
     margin-top: 15px;
+    margin-left: 50px;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.alanInfo {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.title {
+    font-size: 40px;
+}
+
+.name {
+    font-size: 55px;
 }
 
 .info {
-    background-color: darkblue;
     color: white;
-    box-shadow: 1px 2px 3px black;
-    margin-bottom: 20px;
+}
+
+.skills {
+    /* background-color: darkblue;
+    box-shadow: 1px 2px 3px black; */
+    width: 800px;
+    margin: auto
+}
+
+.about {
+    /* background-color: darkblue;
+    box-shadow: 1px 2px 3px black; */
+    width: 800px;
+    margin: auto
+}
+
+.about p {
+    margin: 10px;
+    padding-bottom: 20px;
 }
 
 .info h3 {
@@ -68,4 +110,35 @@ nav li a {
 
 .skillsList3 {
     grid-column: 3;
+}
+
+.skillItem {
+    border: 1px solid black;
+    box-shadow: 1px 2px 3px black;
+    color: white;
+    margin-top: 20px;
+    background-color: #3F4346;
+}
+
+.skillItem h2 {
+    margin: 10px;
+}
+
+.skillItem ul {
+    color: black;
+}
+
+.skillItem a {
+    color: rgba(255, 255, 255, 0.514);
+    text-decoration: none;
+}
+
+.skillItem a:hover {
+    text-decoration: underline;
+    color: lime;
+}
+
+.skillsPage {
+    margin: auto;
+    max-width: 800px;
 }
